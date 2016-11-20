@@ -1,0 +1,86 @@
+.reveal table{
+	border: 1px solid #fff;
+	table-layout: fixed;
+}
+
+.reveal table td,
+.reveal table th {
+	border: 1px solid #fff;
+}
+
+.reveal pre {
+	white-space: pre-wrap;
+}
+.reveal pre code {
+	/* These are technically the same, but use both */
+	  overflow-wrap: break-word;
+	  word-wrap: break-word;
+
+	  -ms-word-break: break-all;
+	  /* This is the dangerous one in WebKit, as it breaks things wherever */
+	  word-break: break-all;
+	  /* Instead use this non-standard one: */
+	  word-break: break-word;
+
+	  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+	  -ms-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -webkit-hyphens: auto;
+	  hyphens: auto;
+	  white-space: pre-wrap;
+}
+
+.reveal td {
+	font-size: .8em;
+}
+
+.reveal .slides{
+	text-align: left;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5 {
+	text-align: center;
+}
+.reveal p {
+	font-size: .8em;
+}
+
+.reveal img {
+	text-align: center;
+	display: block;
+	margin: 0 auto!important;
+}
+
+.reveal .slides > section > section.present.wpcli-composer {
+	display: flex!important;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.reveal .slides > section > section.present.wpcli-composer h2 {
+	flex-basis: 100%;
+}
+
+.reveal .slides > section > section.present.wpcli-composer p:nth-of-type(1) {
+	flex-basis: 50%;
+}
+
+.reveal .slides > section > section.present.wpcli-composer p:nth-of-type(2) {
+	flex-basis: 10%;
+	text-align: center;
+}
+
+.reveal .slides > section > section.present.wpcli-composer p:nth-of-type(3) {
+	flex-basis: 40%;
+}
+
+.reveal .about-cc img {
+	width: 60%;
+	border: 20px solid #fff;
+}

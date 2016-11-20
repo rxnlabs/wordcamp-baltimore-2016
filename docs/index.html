@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Managing Your WordPress Dependencies in a Single and Multisite Environment</title>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="bower_components/reveal.js/css/theme/league.css" id="theme">
+		<link rel="stylesheet" href="assets/css/app.css">
+	</head>
+	<body style="background: #1c1e20;
+background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
+background: -webkit-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
+background-color: #2b2b2b;">
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="slides/title.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section class="about-cc" data-markdown="slides/about-cc.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section data-markdown="slides/why-this-is-important.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section data-markdown="slides/christmas.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section data-markdown="slides/options.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section>
+					<section data-markdown="slides/tgm.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/tgm-about.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/tgm-howto.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/tgm-activate.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/tgm-proscons.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/git-submodules.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/git-submodules-about.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/git-submodules-how.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/git-submodules-proscons.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/composer.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/composer-about.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/composer-how.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/composer-example.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/composer-how2.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/composer-proscons.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/wpcli.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-about.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-how.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-how2.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-multisite.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-proscons.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/wpcli-composer.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:" class="wpcli-composer"></section>
+					<section data-markdown="slides/wpcli-composer-how.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-composer-how2.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-composer-commands.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+					<section data-markdown="slides/wpcli-composer-proscons.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				</section>
+				<section data-markdown="slides/resources.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+				<section data-markdown="slides/questions.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n" data-separator-notes="^Note:"></section>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="bower_components/headjs/dist/1.0.0/head.js"></script>
+		<script src="bower_components/reveal.js/js/reveal.js"></script>
+		<script>
+						Reveal.initialize({
+							controls: true,
+							progress: true,
+							history: true,
+							center: true,
+							slideNumber: 'c/t',
+							// Optional libraries used to extend on reveal.js
+							dependencies: [
+								{ src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+								{ src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+			                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.configure({
+               tabReplace: '    '
+           });
+
+           $('pre code').each(function(i, block) {
+               hljs.highlightBlock(block);
+           }); } },
+								{ src: 'bower_components/reveal.js/plugin/notes/notes.js' }
+							]
+						});
+		</script>
+	</body>
+</html>
