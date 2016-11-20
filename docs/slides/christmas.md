@@ -1,6 +1,6 @@
 ## This is a bad thing
 
-![christmas](../images/wordpress-christmas.jpg)
+![christmas](images/wordpress-christmas.jpg)
 
 Note:
 12 Slider Plugins

@@ -1,6 +1,6 @@
 ## About Cornershop Creative
 
-![cornershop](../images/cornershopcreative-logo.jpg)
+![cornershop](images/cornershopcreative-logo.jpg)
 
 We offer a wide range of services for nonprofits including:
 

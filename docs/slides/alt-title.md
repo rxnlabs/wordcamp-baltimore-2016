@@ -1,3 +1,3 @@
 ## Also Known As
 
-![samuel](../images/unmanged-dependencies-site.jpg)
+![samuel](images/unmanged-dependencies-site.jpg)

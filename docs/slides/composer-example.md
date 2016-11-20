@@ -1,3 +1,3 @@
 ## Composer - Installing Plugins
 
-![image](../images/composer-install.gif)
+![image](images/composer-install.gif)
