@@ -84,3 +84,7 @@
 	width: 60%;
 	border: 20px solid #fff;
 }
+
+.reveal .title a {
+	text-transform: none;
+}

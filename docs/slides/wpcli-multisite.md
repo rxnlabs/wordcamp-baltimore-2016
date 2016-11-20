@@ -8,7 +8,7 @@ wp plugin list
 
 Update plugins used on only one site in a multisite
 ```
-wp plugin update --url="http://subdomain.my-awesome-site.com"
+wp plugin update --all --url="http://subdomain.my-awesome-site.com"
 ```
 
 Note:

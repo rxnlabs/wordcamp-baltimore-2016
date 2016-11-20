@@ -41,10 +41,3 @@ function avada_jupiter_divi_plugins() {
 	tgmpa( $plugins, $config );
 }
 ```
-
-Note:
-Premium theme named Avada Jupiter Divi.
-
-- It's SEO Optimized, built in Slider support, Social Sharing support.
-- It uses plugins to make these features work.
-- After theme activation, you would go into the Apperance menu -> Install plugins.

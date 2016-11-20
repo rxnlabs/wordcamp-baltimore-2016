@@ -2,7 +2,7 @@
 
 Installing BuddyPress with Composer
 ```
-composer install wpackagist-plugin/buddypress
+composer require wpackagist-plugin/buddypress
 ```
 Updating BuddyPress with Composer
 
